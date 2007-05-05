@@ -1,6 +1,6 @@
 %define name            pgfouine
-%define version         0.7.2
-%define release         %mkrel 2
+%define version         1.0
+%define release         %mkrel 1
 %define _requires_exceptions pear(version.php)
 
 Name:	 %{name}
@@ -9,7 +9,7 @@ Release: %{release}
 Summary: PostgreSQL log analyzer
 License: GPL
 Group:   System/Servers
-Source0: %{name}-%{version}.tar.gz
+Source0: %{name}-%{version}.tar.bz2
 #Patch0: %{name}-include_path.patch.bz2
 URL:     http://pgfouine.projects.postgresql.org
 Requires: postgresql-server
