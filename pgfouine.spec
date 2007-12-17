@@ -14,7 +14,6 @@ Source0: %{name}-%{version}.tar.bz2
 URL:     http://pgfouine.projects.postgresql.org
 Requires: postgresql-server
 Requires: php-cli
-BuildRoot: %{_tmppath}/%{name}-buildroot
 Buildarch: noarch
 
 %description
