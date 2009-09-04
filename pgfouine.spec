@@ -1,6 +1,6 @@
 %define name            pgfouine
 %define version         1.0
-%define release         %mkrel 2
+%define release         %mkrel 3
 %define _requires_exceptions pear(version.php)
 
 Name:	 %{name}
