@@ -50,3 +50,30 @@ rm -rf $RPM_BUILD_ROOT
 
 
 
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.0-3mdv2010.0
++ Revision: 430682
+- rebuild
+
+* Mon Jun 16 2008 Michael Scherer <misc@mandriva.org> 1.0-2mdv2009.0
++ Revision: 219441
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sat May 05 2007 Olivier Thauvin <nanardon@mandriva.org> 1.0-1mdv2008.0
++ Revision: 23215
+- 1.0
+
+
+* Tue Jan 02 2007 Anne Nicolas <anne.nicolas@mandriva.com> 0.7.2-2mdv2007.0
++ Revision: 103038
+- New version
+- Import pgfouine
+
