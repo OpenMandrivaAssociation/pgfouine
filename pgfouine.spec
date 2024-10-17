@@ -8,7 +8,7 @@ Summary: PostgreSQL log analyzer
 License: GPL
 Group:   System/Servers
 Source0: %{name}-%{version}.tar.bz2
-URL:     http://pgfouine.projects.postgresql.org
+URL:     https://pgfouine.projects.postgresql.org
 Requires: postgresql-server
 Requires: php-cli
 Buildarch: noarch
